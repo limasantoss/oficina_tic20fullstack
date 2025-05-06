@@ -1,0 +1,84 @@
+header {
+    background-color: #ffffff; 
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ol li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header nav ol li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #e9ecef; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+section#form {
+    background-color: #ffffff; 
+    border: 1px solid #dee2e6;
+}
+
+h1, h2 {
+    color: #0056b3; 
+}
+
+form {
+    max-width: 650px; 
+    margin: 0 auto; 
+    padding: 25px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: #f8f9fa; 
+}
+
+fieldset {
+    border: 1px solid #adb5bd; 
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+legend {
+    font-size: 1.25em; 
+    font-weight: bold;
+    color: #495057; 
+    padding: 0 10px;
+}
+
+label {
+    font-weight: 600; 
+    color: #212529; 
+}
+
+
+input[type="reset"] {
+    background-color: #6c757d; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40; 
+    color: #f8f9fa; 
+    margin-top: 30px;
+}
